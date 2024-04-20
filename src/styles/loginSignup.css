@@ -1,0 +1,12 @@
+.login{
+    background-image: url("/assets/images/login_shield.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: -70px;
+}
+
+
+.formlabel{
+    text-align: left;
+}

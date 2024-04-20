@@ -1,0 +1,41 @@
+nav{
+    background-color: #21bfd4;
+}
+.links a {
+    position: relative;
+    color: #0C2D57;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links a::before {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: all 0.3s ease;
+
+}
+
+.links a.active::before {
+    width: 100%;
+    color: #000;
+}
+
+.links a:hover::before {
+    width: 100%;
+    color: white;
+}

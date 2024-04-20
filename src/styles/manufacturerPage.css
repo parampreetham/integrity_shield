@@ -1,0 +1,276 @@
+.sidebar{
+    height: 100%;
+    position: fixed;
+    /* z-index: -1; */
+    /* top: 0; */
+    left: 0;
+    /* overflow-x: hidden; */
+    padding: 20px;
+
+}
+
+.mlinks{
+    width: 400px;
+    margin-top: 50px;
+    background-color: #375d84;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.mlinks:hover{
+    background-color: #4c7daf;
+}
+
+.mlinks img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mlinks a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.addProductform{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px 10px 20px 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.addProductform label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.addProductform input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addProductform button{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.addProductform button:hover {
+    background-color: #45a049;
+}
+
+.qr-code{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px 20px 20px 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.qr-code img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.qr-code button{
+    width: 50%;
+    background-color: #4c7daf;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.qr-code button:hover {
+    background-color: #375d84;
+}
+
+.addSellerform{
+    background-color: aliceblue;
+    padding: 20px;
+    /* margin: 50px; */
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+.addSellerform label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.addSellerform input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addSellerform button{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.addSellerform button:hover {
+    background-color: #45a049;
+}
+
+.sellProductForm{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px 10px 20px 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.sellProductForm label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.sellProductForm input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sellProductForm button{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.scanner{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.verification{
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.verification img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.addManufacturerform{
+    background-color: aliceblue;
+    padding: 20px;
+    /* margin: 50px; */
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+.addManufacturerform label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.addManufacturerform input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addManufacturerform button{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.addManufacturerform button:hover {
+    background-color: #45a049;
+}

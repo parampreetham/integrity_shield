@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+body{
+  height: 100%;
+  overflow: hidden;
+}
+
+.home{
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(/assets/images/block_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.home ul{
+  /* float: right; */
+  transform: translate(-20%, 30%);
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 0%;
+}
+
+.home ul li{
+  margin-bottom: 30px;
+}
+
+.home ul li a{
+  background-color: #0C2D57;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.home ul li a:hover{
+  background-color: #0fc3b4;
+  color: #000;
+  transition: 1s all ease;
+}
+
+/* Define keyframe animation */
+@keyframes zoomOut {
+  0% {
+    transform: scale(1); /* Initial scale */
+  }
+  100% {
+    transform: scale(2); /* Final scale */
+  }
+}
+
+/* Apply animation to the image */
+.image-zoom {
+  animation: zoomOut 0.5s ease-out; /* Animation duration and timing function */
+  margin-left: 23%;
+}
