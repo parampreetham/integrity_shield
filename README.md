@@ -1,6 +1,12 @@
 ## Getting Started
 
-First, run the development server:
+First, compile the smart contract file by running the following command:
+
+```
+truffle migrate
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -22,6 +28,7 @@ Before running this project, make sure you have the following installed and set 
 * Environment Variables: Create a .env file in the root directory of your project. Add the following environment variables to the file:
   * MONGODB_URI: Your MongoDB connection URI.
   * TOKEN_SECRET: A secret key for JWT token generation.
+  * DOMAIN: localhost
   * EMAIL_USER: Your email address for sending emails.
   * EMAIL_PASS: Your email password.
 * Mailtrap: This project uses Mailtrap for email testing. Sign up for Mailtrap and obtain your SMTP credentials. You can sign up here.
